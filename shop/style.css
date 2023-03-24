@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+.background {
+    height: 99.4%;
+    width: 100%;
+}
+
+/* ************************** */
+
+.header {
+    /* border: 2px solid blue; */
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header p {
+    margin: 20px;
+    color: white;
+}
+
+.header .check {
+    background-color: #b7eaaf;
+    color: black;
+    padding: .3rem;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+/* ************************** */
+
+.center .left {
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 70%;
+    margin: 10rem;
+    padding: 1rem 1rem;
+    color: white;
+    font-family: sans-serif;
+    position: absolute;
+    top: 0;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    width: 50%;
+    font-size: 50px;
+    margin-bottom: 2rem;
+    text-shadow: 0px 10px 20px rgba(0, 0, 0, 0.25);
+}
+
+.center .left p {
+    width: 50%;
+    font-family: 'Poppins', sans-serif;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.center .left #wait {
+    font-size: 14px;
+    color: #D2FFCB;
+}
+
+.center .left button {
+    background: linear-gradient(90deg, rgba(127, 202, 33, 0.8), #105200);
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    margin: 1rem 0;
+}
+
+/* ************************* */
+
+.center .right {
+    position: absolute;
+    /* border: 2px solid red; */
+    top: 0rem;
+    margin: 10rem 32rem;
+    width: 65%;
+    height: 70%;
+}
+
+.center .right img {
+    margin-top: 16%;
+    width: 23%;
+}
+
+/* ************************** */
+
+.bottom {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 30%;
+    width: 100%;
+}
